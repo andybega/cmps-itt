@@ -5,8 +5,9 @@ library("caret")
 
 source("R/functions.R")
 
-
-mdlX <- readRDS("output/mdl-xgboost.rds")
+# change this to mdl-xgboost.rds if you re-ran 2-xgboost.R to re-train a 
+# XGBoost model
+mdlX <- readRDS("output/mdl-xgboost-orig.rds")
 
 predictor_importance <- mdlX %>%
   map_dfr(., .id = "outcome", function(mm) {

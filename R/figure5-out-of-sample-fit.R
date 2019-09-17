@@ -12,7 +12,10 @@ library("hrbrthemes")
 source("R/functions.R")
 
 oos_fit     <- read_csv("output/core-models-fit-out-of-sample.csv")
-xgboost_fit <- read_csv("output/xgboost-fit.csv") %>%
+
+# change xgboost-fit-orig.csv to xgboost-fit.csv if you re-ran 2-xgboost.R to 
+# re-train the XGBoost model
+xgboost_fit <- read_csv("output/xgboost-fit-orig.csv") %>%
   mutate(outcome = str_to_title(outcome))
 
 oos_fit_all <- oos_fit %>%
@@ -58,4 +61,4 @@ p <- df %>%
   labs(x = "Fit statistic value", y = "Outcome variable") +
   theme(legend.position = "top")
 p
-ggsave(p, "output/figures/oos-fit-all.png", height = 4.5, width = 10)
+ggsave("output/figures/oos-fit-all.png", plot=p, height = 4.5, width = 10)
