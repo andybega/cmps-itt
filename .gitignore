@@ -4,3 +4,6 @@
 .Ruserdata
 
 **/.DS_Store
+
+# there are 1008 SI models, don't put them on git
+output/models/*

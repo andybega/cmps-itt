@@ -18,7 +18,7 @@ flog.info("xgboost.R script start")
 
 set.seed(1234)
 
-registerDoMC(cores = 4) 
+registerDoMC(cores = 3) 
 
 source("R/functions.R")
 
