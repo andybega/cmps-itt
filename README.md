@@ -3,21 +3,30 @@
 
 This repo contains replication materials for:
 
-Beger, Andreas and Daniel W. Hill, Jr., 20XX, “Examining Repressive and
+Beger, Andreas and Daniel W. Hill, Jr., 2019, “Examining Repressive and
 Oppressive State Violence using the Ill-Treatement Contents and Torture
 Data”, *Conflict Managament and Peace Science*.
 
+The journal article link is at
+<https://doi.org/10.1177/0738894219882352>, and a [pre-print
+PDF](https://github.com/andybega/cmps-itt/blob/master/preprint.pdf) is
+also included in this repo.
+
 ``` bibtex
-@article{beger20XXexamining,
+@article{beger2019examining,
   author = {Andreas Beger and Daniel W.\ Hill, Jr.\},
   title = {Examining Repressive and Oppressive State Violence using the Ill-Treatement Contents and Torture Data},
-  year = ,
+  year = 2019,
   journal = {Conflict Management and Peace Science},
   volume = {},
   number = {},
-  doi = {}
+  doi = {https://doi.org/10.1177/0738894219882352}
 }
 ```
+
+(Note to my future self: the private
+[isa-2018](https://github.com/andybega/isa-2018) repo contains the
+original source material, including the tagged ISA 2018 version.)
 
 ## Setup
 
@@ -232,7 +241,7 @@ str(cy)
 sessionInfo()
 ```
 
-    ## R version 3.6.0 (2019-04-26)
+    ## R version 3.6.1 (2019-07-05)
     ## Platform: x86_64-apple-darwin15.6.0 (64-bit)
     ## Running under: macOS Mojave 10.14.6
     ## 
@@ -247,7 +256,7 @@ sessionInfo()
     ## [1] stats     graphics  grDevices utils     datasets  methods   base     
     ## 
     ## loaded via a namespace (and not attached):
-    ##  [1] compiler_3.6.0  magrittr_1.5    tools_3.6.0     htmltools_0.3.6
-    ##  [5] yaml_2.2.0      Rcpp_1.0.2      stringi_1.4.3   rmarkdown_1.14 
-    ##  [9] knitr_1.24      stringr_1.4.0   xfun_0.8        digest_0.6.20  
+    ##  [1] compiler_3.6.1  magrittr_1.5    tools_3.6.1     htmltools_0.3.6
+    ##  [5] yaml_2.2.0      Rcpp_1.0.2      stringi_1.4.3   rmarkdown_1.15 
+    ##  [9] knitr_1.25      stringr_1.4.0   xfun_0.9        digest_0.6.21  
     ## [13] evaluate_0.14

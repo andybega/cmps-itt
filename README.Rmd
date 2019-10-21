@@ -10,19 +10,23 @@ knitr::opts_chunk$set(echo = TRUE)
 
 This repo contains replication materials for:
 
-Beger, Andreas and Daniel W. Hill, Jr., 20XX, "Examining Repressive and Oppressive State Violence using the Ill-Treatement Contents and Torture Data", _Conflict Managament and Peace Science_. 
+Beger, Andreas and Daniel W. Hill, Jr., 2019, "Examining Repressive and Oppressive State Violence using the Ill-Treatement Contents and Torture Data", _Conflict Managament and Peace Science_. 
+
+The journal article link is at https://doi.org/10.1177/0738894219882352, and a [pre-print PDF](https://github.com/andybega/cmps-itt/blob/master/preprint.pdf) is also included in this repo.  
 
 ```bibtex
-@article{beger20XXexamining,
+@article{beger2019examining,
   author = {Andreas Beger and Daniel W.\ Hill, Jr.\},
   title = {Examining Repressive and Oppressive State Violence using the Ill-Treatement Contents and Torture Data},
-  year = ,
+  year = 2019,
   journal = {Conflict Management and Peace Science},
   volume = {},
   number = {},
-  doi = {}
+  doi = {https://doi.org/10.1177/0738894219882352}
 }
 ```
+
+(Note to my future self: the private [isa-2018](https://github.com/andybega/isa-2018) repo contains the original source material, including the tagged ISA 2018 version.)
 
 ## Setup
 
